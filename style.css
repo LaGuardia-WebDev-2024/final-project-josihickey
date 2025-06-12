@@ -71,40 +71,30 @@ body{
   font-family: "Roboto Flex", sans-serif;
 }
 
-h1{
+h1, h2{
   text-align:center;
   color:#01295F;
 }
 
+h3{
+  font-size: 100px;
+  text-align:center;
+}
+
 
 /*image link  */
-/* Ms. Hall Updates */
-
 .all{
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items:center;
 }
+
 .container {
-/*   position: relative; */
-  display: flex;
+  display:flex;
   flex-direction: column;
   max-width: 30%;
   margin:auto;
   padding-bottom: 20px;
-/*   border: 1px solid black; */
-}
-
-.webMiddle{
-  transition: .5s ease;
-  opacity: 0;
-/*   position: absolute; */
-/*   top: 10%; */
-/*   left: 37%; */
-  text-align:center;
-  background-color: purple;
-  margin: auto;
-  display: block;
 }
 
 .center{
@@ -159,10 +149,10 @@ h1{
 
 .webs{
   transition: .5s ease;
-  backface-visibility: hidden;  
+  backface-visibility: hidden;
   margin:20px;
-  max-width: 350px;
-  max-height:350px;
+  width: 350px;
+  height:350px;
   border: 2px solid #af7595;
 }
 
@@ -171,12 +161,89 @@ h1{
   border: 2px solid #01295F;
 }
 
-
+.webMiddle{
+  transition: .5s ease;
+  opacity: 0;
+/*   position: absolute; */
+/*   top: 10%; */
+/*   left: 37%; */
+  text-align:center;
+  background-color:purple;
+  margin: auto;
+  display: block;
+}
 
 .container:hover .webMiddle{
   opacity:1;
 }
 
+
+#rome{
+  margin-left:33%;
+}
+
+.historyP{
+ margin:0% 30%;
+}
+
+
+
+
+
+/*reference image  */
+.container2 {
+  display:flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin:auto;
+  padding-bottom: 20px;
+}
+.center2{
+  text-align:center;
+  border: 2px solid #01295F;
+   transition: .5s ease;
+  backface-visibility: hidden;
+  position:relative;
+  display:block;
+  width: 100%;
+  height: auto;
+  margin:auto;
+}
+
+.center2:hover{
+  opacity:0.3;
+  border: 2px solid #af7595;
+}
+
+
+
+.middle2{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  position: absolute;
+  text-align:center;
+ 
+  
+}
+
+.container2:hover .middle2{
+  opacity:1;
+}
+
+
+.text2{
+  background-color: #01295F;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+embed{
+ 
+}
 
 /* Links that open files in the editor */
 .fileopener {
